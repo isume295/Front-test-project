@@ -9,8 +9,8 @@ module.exports = {
             },
             colors: {
                 mainColor: '#3565A9',
-                secondColor: '#EC1B30',
-                lightMain: '#29ACE2',
+                secondColor: '#347659',
+                lightMain: '#CCEFDB',
                 rbgSecond: 'rgb(236, 27, 48, 0.5)',
                 rbgMain: 'rgba(20, 88, 135, 0.5)',
                 customDark: 'rgba(6, 15, 21, 0.7)',

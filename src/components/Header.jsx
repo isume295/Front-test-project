@@ -1,15 +1,15 @@
 import React from 'react';
-import { TfiControlForward } from 'react-icons/tfi';
 import { GoBook } from 'react-icons/go';
 import { FiUnlock } from 'react-icons/fi';
 import { RiArrowDropDownLine } from 'react-icons/ri';
+import { MdKeyboardDoubleArrowRight } from 'react-icons/md';
 
 export const Header = () => {
     return (
-        <div className="flex bg-green-300 text-gray-400 font-poppins h-12 px-4 justify-between items-center">
+        <div className="flex text-gray-400 font-poppins h-12 px-4 justify-between items-center">
             {/* Left side */}
             <div className="flex gap-4 justify-between items-center">
-                <TfiControlForward />
+                <MdKeyboardDoubleArrowRight />
                 <div className="flex justify-center gap-3 items-center">
                     <div className="flex justify-center gap-2 items-center font-bold ">
                         <GoBook />
