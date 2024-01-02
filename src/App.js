@@ -1,9 +1,12 @@
 import './App.css';
+import { Header } from './components/Header';
+import { Main } from './components/Main';
 
 function App() {
     return (
-        <div className="App bg-red-200 flex justify-center items-center">
-            <h1>React App is ready</h1>
+        <div>
+            <Header />
+            <Main />
         </div>
     );
 }

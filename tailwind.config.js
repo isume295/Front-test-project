@@ -8,7 +8,7 @@ module.exports = {
                 raleway: ['Raleway', 'sans-serif'],
             },
             colors: {
-                mainColor: '#145887',
+                mainColor: '#3565A9',
                 secondColor: '#EC1B30',
                 lightMain: '#29ACE2',
                 rbgSecond: 'rgb(236, 27, 48, 0.5)',
