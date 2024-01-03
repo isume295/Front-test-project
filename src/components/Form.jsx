@@ -61,14 +61,14 @@ export const Form = () => {
                             {item.substring(2)}
                         </h1>
                     ) : item.startsWith('/+1') ? (
-                        <span className="text-gray-500" key={index}>
+                        <p className="text-gray-500 mt-3" key={index}>
                             {item.substring(3)}
-                        </span>
+                        </p>
                     ) : (
                         ''
                     )
                 )}
-                {error && <span className="text-red-500">Invalid filter key</span>}
+                {error && <p className="text-red-500">Invalid filter key</p>}
             </div>
             <input
                 className={`focus:outline-none w-full h-full ${clicked ? 'text-2xl font-semibold' : ''}`}
