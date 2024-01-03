@@ -12,7 +12,7 @@ export const Form = () => {
     const handleChange = (e) => {
         const inputValue = e.target.value;
         setText(inputValue);
-        setShowKeyFilter(inputValue.startsWith('/1'));
+        setShowKeyFilter(inputValue.startsWith('/1') && !clicked);
     };
 
     // handle second keydown event of the input field
