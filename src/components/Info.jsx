@@ -7,7 +7,7 @@ import { BsThreeDotsVertical } from 'react-icons/bs';
 
 export const Info = () => {
     return (
-        <div className="w-7/12 flex">
+        <div className="lg:w-7/12 w-11/12 flex">
             <div className="w-full border-2 rounded-lg h-12 mt-4 flex justify-between p-2">
                 {/* Left side */}
                 <div className="flex gap-3">

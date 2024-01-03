@@ -2,7 +2,7 @@ import React from 'react';
 
 export const Heading = () => {
     return (
-        <div className="w-7/12">
+        <div className="lg:w-7/12 w-11/12">
             <div className="flex w-full mt-5 flex-col justify-start items-start">
                 <div className="flex flex-col w-full gap-2">
                     <h1 className="font-bold text-black text-4xl">Front-end developer test project </h1>

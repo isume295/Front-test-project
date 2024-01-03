@@ -3,7 +3,7 @@ import { TbHeading } from 'react-icons/tb';
 
 export const KeyFilter = () => {
     return (
-        <div className="w-7/12">
+        <div className="w-full">
             <div className="w-5/12 h-80 border rounded-md shadow-lg ">
                 <div className="flex flex-col justify-start items-start ">
                     <h1 className="font-semibold text-black pt-2 px-2">Add blocks</h1>

@@ -10,19 +10,19 @@ export const Header = () => {
             {/* Left side */}
             <div className="flex gap-4 justify-between items-center">
                 <MdKeyboardDoubleArrowRight />
-                <div className="flex justify-center gap-3 items-center">
+                <div className="flex justify-center md:gap-3 gap-1 items-center">
                     <div className="flex justify-center gap-2 items-center font-bold ">
                         <GoBook />
                         <span className="underline">Main</span>
                     </div>
                     <span>/</span>
                     <span>Getting started</span>
-                    <span>/</span>
-                    <span>Front-end developer test proje...</span>
+                    <span className="md:flex hidden">/</span>
+                    <span className="md:flex hidden">Front-end developer test proje...</span>
                 </div>
             </div>
             {/* Right side */}
-            <div className="flex justify-center items-center gap-3">
+            <div className="flex justify-center items-center md:gap-3 gap-1">
                 <div className="flex justify-center items-center gap-2">
                     <FiUnlock />
                     <span>Editing</span>

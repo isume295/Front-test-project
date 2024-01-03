@@ -9,10 +9,6 @@ export const Main = () => {
             <Info />
             <Heading />
             <Form />
-            {/* <KeyFilter /> */}
-            {/* <div className="mt-9">
-                    <span>this is the typing input</span>
-                </div> */}
         </div>
     );
 };
