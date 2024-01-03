@@ -6,6 +6,7 @@ export const Form = () => {
     const [listText, setListText] = useState([]);
     const [showKeyFilter, setShowKeyFilter] = useState(false);
     const [clicked, setClicked] = useState(false);
+    const [error, setError] = useState(false);
 
     // handle change event of the input field
     const handleChange = (e) => {
@@ -35,6 +36,11 @@ export const Form = () => {
                 setText('');
             } else if (text.startsWith('/+1')) {
                 setListText([...listText, text]);
+            } else {
+                setError(true);
+                setTimeout(() => {
+                    setError(false);
+                }, 1500);
             }
             setText('');
             setShowKeyFilter(false);
@@ -59,9 +65,10 @@ export const Form = () => {
                             {item.substring(3)}
                         </span>
                     ) : (
-                        'invalid filter key'
+                        ''
                     )
                 )}
+                {error && <span className="text-red-500">Invalid filter key</span>}
             </div>
             <input
                 className={`focus:outline-none w-full h-full ${clicked ? 'text-2xl font-semibold' : ''}`}
